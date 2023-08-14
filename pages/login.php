@@ -43,6 +43,9 @@ if(array_filter($errors)){      //checks for errors
 } 
 ?>
 
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -54,7 +57,7 @@ if(array_filter($errors)){      //checks for errors
 
 <section class="container grey-text">
 
-    <form action="login.php" method="POST" class="grey lighten-4">
+    <form action="save_data.php" method="POST" class="grey lighten-4">
     <p class="center">ENTER YOUR LOGIN DETAILS</p>
         <label>Enter your username:</label>
         <input type="text" name="username" value="<?php echo $username ?>">
