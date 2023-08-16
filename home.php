@@ -3,7 +3,7 @@
 <nav class="white z-depth-0">
         <div class="container">
             <ul id="nav-mobile" class="right hide-on-small-and-down">
-                <li><a href="pages/login.php" class="waves-effect waves-light btn-small">Login</a></li>
+                <li><a href="login.php" class="waves-effect waves-light btn-small">Login</a></li>
             </ul>
         </div>
     </nav>
