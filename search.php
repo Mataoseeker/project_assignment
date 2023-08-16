@@ -14,5 +14,5 @@
         </div>
        
     <footer class="center">
-        <a href="../index.php" class="waves-effect waves-light btn-small"> Go Home</a>
+        <a href="./index.php" class="waves-effect waves-light btn-small"> Go Home</a>
     </footer>

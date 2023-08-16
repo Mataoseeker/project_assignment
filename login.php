@@ -55,7 +55,7 @@ if(array_filter($errors)){      //checks for errors
 <?php include('styling.php'); ?>
 
 <section class="right">
-        <a href="../index.php" class="waves-effect waves-light btn-small"> Go Home</a>
+        <a href="./index.php" class="waves-effect waves-light btn-small"> Go Home</a>
 </section>
 
 <section class="container grey-text">

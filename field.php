@@ -1,6 +1,6 @@
 <?php include('styling.php'); ?>
 <section class="right">
-        <a href="../index.php" class="waves-effect waves-light btn-small"> Go Home</a>
+        <a href="./index.php" class="waves-effect waves-light btn-small"> Go Home</a>
 </section>
 <form action="field_data.php" method="post" class="grey lighten-3">
         <label>Enter your full name:</label>
