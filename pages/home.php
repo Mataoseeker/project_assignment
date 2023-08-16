@@ -1,10 +1,7 @@
-
 <?php include('styling.php'); ?>
-
 
 <nav class="white z-depth-0">
         <div class="container">
-            <!-- <a href="#" class="brand-logo brand-text center">Project Assessment</a> -->
             <ul id="nav-mobile" class="right hide-on-small-and-down">
                 <li><a href="pages/login.php" class="waves-effect waves-light btn-small">Login</a></li>
             </ul>
@@ -13,6 +10,6 @@
     <section class="container grey-text">
             <div class="grey lighten-4">
             <p class="parag">This is a simple PHP page that shows a login page and displays a form
-                 with the details of each users stored in postgreSQL </p>
+                 with the details of each users stored in postgreSQL styled with Materalize CSS</p>
             </div>
     </section>

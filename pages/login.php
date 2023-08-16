@@ -1,8 +1,10 @@
 <?php 
 
 $username = $email = $password = '';
+//initializing the username, email and password as empty strings
 
 $errors = array('email' =>'', 'username' =>'', 'password' =>'');
+//initializing the errors as an array
 
 if(isset($_POST['submit'])){
 
@@ -20,7 +22,7 @@ if(empty($_POST['username'])){
     $errors['username'] =  'A username is required <br />';
 } else {
     $username = $_POST['username'];
-    if(!preg_match('/^[a-zA-Z\s]+$/', $username)){     //matching the title to a regular expression
+    if(!preg_match('/^[a-zA-Z\s]+$/', $username)){     //matching the username to a regular expression
         $errors['username'] = 'username must be letters and spaces only';
     }
 }
@@ -29,10 +31,11 @@ if(empty($_POST['password'])){
     $errors['password'] = 'Password is required <br />';
 } else {
     $password = $_POST['password'];
-    if(!preg_match('/^[a-zA-Z\s]+$/', $password)){    //matching the ingredients to a regular expression
+    if(!preg_match('/^[a-zA-Z\s]+$/', $password)){    //matching the password to a regular expression
         $errors['password'] = 'Password must be letters';
     }
 }
+
 
 if(array_filter($errors)){      //checks for errors
     // echo 'errors in the form';
@@ -76,8 +79,4 @@ if(array_filter($errors)){      //checks for errors
         </div>
     </form>
 </section>
-
-<!-- <?php include('template/footer.php'); ?> -->
-    
-
 </html>
